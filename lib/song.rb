@@ -48,7 +48,7 @@ class Song
   song_from_filename = self.new 
   filename.split("")
   binding.pry
-  end 
+  
 
 
 end 
