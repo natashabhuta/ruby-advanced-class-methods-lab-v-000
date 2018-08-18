@@ -51,7 +51,10 @@ class Song
     song.name = song_array[1]
     song.artist_name = song_array[0]
     song
-    binding.pry
+  end 
+  
+  def self.create_from_filename
+    
  
 end 
 end 
