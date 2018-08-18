@@ -22,15 +22,15 @@ class Song
   song
   end 
 
-    def self.create_by_name(name)
-    song = self.create
-    song.name = name 
-    song
+  def self.create_by_name(title)
+  song = self.create
+  song.name = title 
+  song
   end 
 
-def self.find_by_name(title)
+  def self.find_by_name(title)
   result = self.all.detect {|song| song.name == title}
-    result
+  result
   end
   
   
